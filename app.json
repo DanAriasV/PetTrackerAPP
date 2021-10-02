@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Pet-Tracker-App",
+    "slug": "Pet-Tracker-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/petTracker.png",
+    "splash": {
+      "image": "./assets/img/petTracker.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/petTracker.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/img/petTracker.png"
+    }
+  }
+}
